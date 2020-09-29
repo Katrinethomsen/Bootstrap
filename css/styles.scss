@@ -10,7 +10,9 @@ $theme-colors: (
 	"info": #894,
 	"warning": #822,
 	"light": #ddd,
-	"dark": #333
+	"dark": #333,
+	"white": #ffffff,
+	"black": #000000
 );
 
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
@@ -30,6 +32,7 @@ ul ol {
 
 /* Her henter vi vores eget stylesheet (det der før hed styles.css) - nu har vi kaldt det _myStyles.scss */
 @import "myStyles";
+
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
