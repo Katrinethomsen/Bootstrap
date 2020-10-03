@@ -7443,6 +7443,14 @@ img {
   width: 100%;
   height: 700px; }
 
+.forskelligeikoner {
+  display: flex;
+  justify-content: space-between; }
+
+.sidsteikon {
+  display: flex;
+  justify-content: center; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
