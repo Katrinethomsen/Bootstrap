@@ -7452,6 +7452,18 @@ img {
   justify-content: space-between;
   margin-top: 15px; }
 
+.navbar-brand {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Bodoni 72", cursive; }
+
+.nav-item {
+  font-family: "Bodoni 72", cursive;
+  font-size: 20px; }
+
+.display-4 {
+  font-family: "Bodoni 72", cursive; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
