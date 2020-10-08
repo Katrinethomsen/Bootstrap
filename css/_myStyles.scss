@@ -40,31 +40,32 @@ img {
 }
 
 .imagesogtekst{
-	background-image: url("../images/forside1.jpg") ;
+	background-image: url("../images/forside1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
 	height: 700px;
 }
 
-
-
-.forskelligeikoner{
-	display: flex;
-	justify-content: space-between;
+.forskelligeikoner1{
+	display: grid;
 }
 
-.sidsteikon{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 15px;
+.forskelligeikoner2{
+	display: grid;
+}
+
+.sidsteikon1{
+	display: grid;
+}
+
+.sidsteikon2{
+	display: grid;
 }
 
 .navbar-brand{
 	color: #ffffff;
 	font-size: 40px;
 	font-family: "Bodoni 72", cursive
-
 }
 
 .nav-item{

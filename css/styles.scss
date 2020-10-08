@@ -3,7 +3,7 @@
 
 /* Her retter vi standard farverne i Bootstrap */
 $theme-colors: (
-	"primary": #7fd900,
+	"primary": #d99c9a,
 	"secondary": #0f0,
 	"danger": #ff4136,
 	"success": #050,
@@ -12,11 +12,14 @@ $theme-colors: (
 	"light": #ddd,
 	"dark": #333,
 	"white": #ffffff,
-	"black": #000000
+	"black": #000000,
+	"darkgrey": #A4A4A4,
+	"dæmpet": #dcefff
 );
 
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
 $spacer: 100px;
+
 
 /* Her importerer vi Bootstrap i vores egen css - Dvs bootstrap css filen skal ikke længere være i vores HTML dokument */
 @import "../node_modules/bootstrap/scss/bootstrap";

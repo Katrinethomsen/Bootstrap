@@ -20,6 +20,7 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+
     <script src="https://kit.fontawesome.com/0ad70799b4.js" crossorigin="anonymous"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -32,10 +33,10 @@
 <!-- Her skal sidens indhold ligge -->
 
 
-<div class="container">
+<div class="container-fluid">
 
 
-    <div class="jumbotron imagesogtekst btn">
+    <div class="jumbotron imagesogtekst position-relative bg btn col-12 col-sm-12 col-md-12 col-lg-12 justify-content-center">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Flying for you</a>
@@ -46,29 +47,28 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link btn-light" href="#">Rejsepakker <span class="sr-only">(current)</span></a>
+                        <a class="nav-link btn-light" href="#">Rejsepakker<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link btn-light" href="#"> Lav din egen rejse <span class="sr-only">(current)</span></a>
+                        <a class="nav-link btn-light" href="#">Lav din egen rejse<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link btn-light" href="#"> Tilbud <span class="sr-only">(current)</span></a>
+                        <a class="nav-link btn-light" href="#">Tilbud<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link btn-light" href="#"> Om os <span class="sr-only">(current)</span></a>
+                        <a class="nav-link btn-light" href="#">Om os<span class="sr-only">(current)</span></a>
                     </li>
-
                 </ul>
 
             </div>
         </nav>
 
-            <h1 class="display-4 text-center mt-4"> Elsker du også rejser?</h1>
+            <h1 class="display-4 text-center mt-4">Elsker du også rejser?</h1>
         <br>
-            <p class="lead text-center"> Vi skaber sammenhæng mellem pris og kvalitet!</p>
+            <p class="lead text-center">Vi skaber sammenhæng mellem pris og kvalitet!</p>
         <br>
 
             <p class="lead text-center">
@@ -79,103 +79,225 @@
     </div>
 
 
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mb-1">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 text-center mb-2">
             <div class="forskelligeikoner1">
                 <img src="images/bjerg.jpg" alt="bjergbestigning">
                 <div class="bg-light">
-                    <h4>Bjergbestigning</h4>
+                    <h4>Bjerg rejser</h4>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mb-1">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 text-center mb-2">
             <div class="forskelligeikoner2">
                 <img src="images/beach.jpg" alt="beach">
                 <div class="bg-light">
-                    <h4>charter ferie</h4>
+                    <h4>charter rejer</h4>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mb-1">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 text-center mb-2">
             <div class="sidsteikon1">
                 <img src="images/strand.jpg" alt="chaterferie">
                 <div class="bg-light">
-                    <h4>Aktiv ferie</h4>
+                    <h4>Aktive rejser</h4>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mb-1">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 text-center mb-2">
             <div class="sidsteikon2">
                 <img src="images/camping.jpg" alt="campingferie">
                 <div class="bg-light">
-                    <h4>Camping ferie</h4>
+                    <h4>Camping rejser</h4>
                 </div>
             </div>
         </div>
     </div>
 
 
-
-
-
-    <div class="container1 bg-primary p-2">
+<!-- her er rejseboksen -->
+    <div class="container1 bg-primary text-start p-2 mb-1">
         <div>
-            <div class="row pt-1 pb-3">
-                <div class="col-12 col-md-4">
+            <div class="row">
+                <div class="col-12 col-sm-1 col-md-1 col-lg-2">
                     <h2>Bestil din rejse</h2>
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <i class="fas fa-suitcase"></i>
                     Hotel + fly
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <i class="fas fa-umbrella-beach"></i>
                     Charter rejse
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <i class="fas fa-campground"></i>
                     Camping
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
                     <i class="fas fa-plane-departure"></i>
                     Flybillet
                 </div>
             </div>
         </div>
+
+        <div class="container">
         <div class="bg-white">
             <div class="row p-1">
-                <div class="col-12 col-md-3">
-                    sadasd
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="rejsemål"><h6>Fra</h6></label>
+                    <br>
+                    <select name="rejsemål" id="rejsemål">
+                        <option value="København">København</option>
+                        <option value="Billund">Billund</option>
+                        <option value="Aalborg">Aalborg</option>
+                        <option value="Aarhus">Aarhus</option>
+                        <option value="Odense">Odense</option>
+                    </select>
                 </div>
-                <div class="col-12 col-md-3">
-                    sadasd
+
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="rejse"><h6>Rejsemål</h6></label>
+                    <select name="rejse" id="rejse">
+                        <option value="København">Søg alle rejsemål</option>
+                        <option value="Belgien">Belgien</option>
+                        <option value="Brasilien">Brasilien</option>
+                        <option value="Bulgarien">Odense</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Cypern">Cypern</option>
+
+                    </select>
                 </div>
-                <div class="col-12 col-md-3">
-                    sadasd
+
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="rejselængde"><h6>Rejselængde</h6></label>
+                    <select name="rejselængde" id="rejselængde">
+                        <option value="1 Uge"> 1 Uge</option>
+                        <option value="2 Uger">2 Uger</option>
+                        <option value="3 Uger">3 Uger</option>
+                        <option value="4 Uger">4 Uger</option>
+                        <option value="langtidsferie">Langtidsferie</option>
+                    </select>
                 </div>
-                <div class="col-12 col-md-3">
-                    sadasd
+
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <h6>Dato</h6>
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="kalender">
+                                <table class="table-condensed table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="7">
+                        <span class="btn-group">
+                            <a class="btn active"><h6>Februar 2021</h6></a>
+                        </span>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Ma</th>
+                                        <th>Ti</th>
+                                        <th>On</th>
+                                        <th>To</th>
+                                        <th>Fr</th>
+                                        <th>Lø</th>
+                                        <th>Sø</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="muted">29</td>
+                                        <td class="muted">30</td>
+                                        <td class="muted">31</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td class="btn-darkgrey">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="btn-darkgrey">5</td>
+                                        <td>6</td>
+                                        <td class="btn-darkgrey">7</td>
+                                        <td>8</td>
+                                        <td class="btn-darkgrey">9</td>
+                                        <td>10</td>
+                                        <td class="btn-darkgrey">11</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="btn-darkgrey">12</td>
+                                        <td>13</td>
+                                        <td class="btn-darkgrey">14</td>
+                                        <td>15</td>
+                                        <td class="btn-darkgrey">16</td>
+                                        <td>17</td>
+                                        <td class="btn-darkgrey">18</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="btn-darkgrey">19</td>
+                                        <td>20</td>
+                                        <td class="btn-darkgrey">21</td>
+                                        <td>22</td>
+                                        <td class="btn-darkgrey">23</td>
+                                        <td>24</td>
+                                        <td class="btn-darkgrey">25</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="btn-darkgrey">26</td>
+                                        <td>27</td>
+                                        <td class="btn-darkgrey">28</td>
+                                        <td>29</td>
+                                        <td class="muted btn-dæmpet" >1</td>
+                                        <td>2</td>
+                                        <td class="muted btn-dæmpet">3</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="rejsende"><h6>Rejsende</h6></label>
+                    <select name="rejsende" id="rejsende">
+                        <option value="1 voksen"> 1 voksen</option>
+                        <option value="2 voksne">2 Voksne</option>
+                        <option value="3 voksne">3 Voksne</option>
+                        <option value="4 voksne">4 Voksne</option>
+                        <option value="5 voksne">5 voksne</option>
+                        <option value="6 voksne">6 Voksne</option>
+                        <option value="7 voksne">7 Voksne</option>
+                        <option value="8 voksne">8 Voksne</option>
+                    </select>
+                        <br><br>
+                    <label for="børn"><h6>Barn 0-11 år</h6></label>
+                    <select name="børn" id="børn">
+                        <option value="0 børn">0 Børn</option>
+                        <option value="1 barn">1 Barn</option>
+                        <option value="2 børn">2 Børn</option>
+                        <option value="3 børn">3 Børn</option>
+                        <option value="4 børn">4 Børn</option>
+                        <option value="5 børn">5 Børn</option>
+                        <option value="flere børn">Flere børn</option>
+                    </select>
+                </div>
+
+                <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+                    <input type="submit" value="Søg">
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    <br>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-</div> <!--her slutter containeren -->
+ <!--her slutter containeren -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
